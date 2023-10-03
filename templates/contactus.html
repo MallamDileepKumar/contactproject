@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>contact_us</title>
+</head>
+<body bgcolor="cyan">
+<center>
+<form action="" method="POST">
+    {% csrf_token %}
+    <h1>CONTACT FORM</h1>
+    <div class="container">
+        Name: <input type="text" name="name" placeholder="Enter your name"><br><br>
+        EmailId: <input type="email" name="email" placeholder="Enter your @emailId"><br><br>
+        Message:<center> <textarea name="message" placeholder="Enter your massage"></textarea></center><br><br>
+        <input type="submit" value="submit">
+
+    </div>
+
+</form>
+</center>
+</body>
+</html>
